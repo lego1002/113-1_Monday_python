@@ -1,0 +1,16 @@
+{
+    // User Settings
+    "window.zoomLevel": 1.5, // zoom level for vscode window size
+     "editor.fontSize": 15,
+    // "editor.lineHeight": 26,
+    // "terminal.integrated.fontSize": 30, // font size in terminal
+    // "editor.formatOnSave": true, // auto format the file while saving
+    "files.autoSave": "afterDelay", // turn on auto save
+    "extensions.ignoreRecommendations": true, // ignore all the package recommendations
+    "files.encoding": "utf8", // set file encoding to utf8
+    "files.trimTrailingWhitespace": true, // remove the redundant white space while running the code
+    "files.autoGuessEncoding": false, // do not auto guess encoding
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "workbench.startupEditor": "newUntitledFile", // the type of file when you start a new editor
+    "explorer.confirmDelete": false,// confirm again before you delete the file
+}
