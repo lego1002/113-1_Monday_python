@@ -1,7 +1,7 @@
 entered_str = input()
 sum = 0
 for char in entered_str:
-    if char.isdigit(): 
+    if ('0' <= char <= '9'):
         sum += int(char)
 
-print(f"{sum},{len(entered_str)}")
+print("{},{}".format(sum, len(entered_str)))

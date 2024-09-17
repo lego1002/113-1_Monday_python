@@ -25,5 +25,5 @@ elif(is_prime == 1 and is_odd == 1):
 elif(is_prime == 1 and is_odd == 0):
     print("Prime,Even")
 elif(is_prime == 0 and is_odd == 1):
-    print("Not Prime, Odd")
+    print("Not Prime,Odd")
 
