@@ -3,14 +3,14 @@ character = user_input[0]
 first = float(user_input[1])
 second = float(user_input[2])
 
-if character == '+':
+if(character == '+'):
     print("{:.2f}".format(first + second))
-elif character == '-':
+elif(character == '-'):
     print("{:.2f}".format(first - second))
-elif character == '*':
+elif(character == '*'):
     print("{:.2f}".format(first * second))
-elif character == "/":
-    if second == 0:
+elif(character == "/"):
+    if(second == 0):
         print("Error")
     else:
         print("{:.2f}".format(first / second))
