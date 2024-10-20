@@ -5,8 +5,6 @@ def factorial(x):
         return(x * factorial(x - 1))
 k, n = map(int, input().split(" "))
 
-
-
 if(n < k):
     print("Error! k > n, please input again!")
 else:
