@@ -20,7 +20,7 @@ motor_c = Motor(Port.C, Direction.CLOCKWISE)
 motor_d = Motor(Port.D, Direction.CLOCKWISE)
 
 # MQTT settings
-BROKER_IP = "192.168.1.170"  # our pc's ip
+BROKER_IP = "172.20.10.2"  # our pc's ip
 TOPIC = "control/motor"      # MQTT topic
 
 def message_callback(topic, msg):
